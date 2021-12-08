@@ -1,0 +1,49 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "GHS SERIES CIRCUIT DEMO"
+Date "2021-12-08"
+Rev "v0.1"
+Comp "Matt Gleich (class of 2022)"
+Comment1 "mattgleich.com"
+Comment2 "www.mozilla.org/en-US/MPL/2.0/"
+Comment3 "License: MPL-2.0 (github.com/gleich/pcbs)"
+Comment4 "Created for AP Physics 2"
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 61B1EBC4
+P 7650 5600
+F 0 "R?" V 7443 5600 50  0000 C CNN
+F 1 "10k" V 7534 5600 50  0000 C CNN
+F 2 "" V 7580 5600 50  0001 C CNN
+F 3 "~" H 7650 5600 50  0001 C CNN
+	1    7650 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B235D8
+P 10200 5600
+F 0 "R?" V 9993 5600 50  0000 C CNN
+F 1 "20k" V 10084 5600 50  0000 C CNN
+F 2 "" V 10130 5600 50  0001 C CNN
+F 3 "~" H 10200 5600 50  0001 C CNN
+	1    10200 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61B25E8B
+P 8900 5600
+F 0 "D?" H 8893 5345 50  0000 C CNN
+F 1 "LED" H 8893 5436 50  0000 C CNN
+F 2 "" H 8900 5600 50  0001 C CNN
+F 3 "~" H 8900 5600 50  0001 C CNN
+	1    8900 5600
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
