@@ -1,8 +1,2 @@
-*.kicad_pcb linguist-detectable=true
-*.kicad_pcb linguist-documentation=false
-
-*.sch linguist-detectable=true
-*.sch linguist-documentation=false
-
-*.pro linguist-detectable=true
-*.pro linguist-documentation=false
+*.kicad* linguist-detectable=true
+*.kicad* linguist-documentation=false
