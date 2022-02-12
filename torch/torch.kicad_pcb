@@ -83,7 +83,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 4bf86235-9386-4fe6-b6ab-19760a144124)
-    (at 130.429 76.454)
+    (at 130.582666 76.453998)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
     (property "Sheetfile" "torch.kicad_sch")
@@ -131,7 +131,7 @@
 
   (footprint "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" (layer "F.Cu")
     (tedit 5D84F0EF) (tstamp a8bed542-67f1-497b-acba-983122b53f61)
-    (at 141.328 73.914)
+    (at 141.921332 73.914)
     (descr "SW_TH_Tactile_Omron_B3F-10xx_https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
     (tags "Omron B3F-10xx")
     (property "Sheetfile" "torch.kicad_sch")
@@ -178,7 +178,7 @@
 
   (footprint "Battery:BatteryHolder_Keystone_1058_1x2032" (layer "F.Cu")
     (tedit 589EE147) (tstamp e1a6afef-36b2-4f4e-800b-d089cb70ebde)
-    (at 167.64 76.2)
+    (at 167.64 76.260666)
     (descr "http://www.keyelco.com/product-pdf.cfm?p=14028")
     (tags "Keystone type 1058 coin cell retainer")
     (property "Sheetfile" "torch.kicad_sch")
@@ -255,7 +255,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp ef5cd4d4-677b-409e-90f1-7646056b3a08)
-    (at 124.714 74.93 -90)
+    (at 124.714 75.082332 -90)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "torch.kicad_sch")
@@ -3472,7 +3472,7 @@
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 61e168f2-919d-4115-b533-980ea8e7b9cd)
     (pts (xy 118.999 76.073) (xy 185.42 76.073))
     (height -18.542)
-    (gr_text "66.4210 mm" (at 152.2095 55.731) (layer "Dwgs.User") (tstamp 29e0402b-99fb-4a26-88f9-41f2a7ee77eb)
+    (gr_text "66.4210 mm" (at 152.2095 55.731) (layer "Dwgs.User") (tstamp 61e168f2-919d-4115-b533-980ea8e7b9cd)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -3481,7 +3481,7 @@
   (dimension (type aligned) (layer "Dwgs.User") (tstamp acfcc4f8-d781-4932-8684-80ca0f5b3598)
     (pts (xy 167.64 64.037139) (xy 167.653609 88.347284))
     (height -35.17183)
-    (gr_text "24.3101 mm" (at 204.618628 76.171514 270.0320722) (layer "Dwgs.User") (tstamp bc096d06-96e7-4911-8c4f-bc0c311852a9)
+    (gr_text "24.3101 mm" (at 204.618628 76.171514 270.0320722) (layer "Dwgs.User") (tstamp acfcc4f8-d781-4932-8684-80ca0f5b3598)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
