@@ -3456,7 +3456,6 @@
   (gr_arc (start 156.972 70.358) (mid 167.64 64.037139) (end 178.308 70.358) (layer "Edge.Cuts") (width 0.1) (tstamp f27e25ab-142f-46a2-b367-83f442d95b53))
   (gr_arc (start 184.531 70.358) (mid 185.159618 70.618382) (end 185.42 71.247) (layer "Edge.Cuts") (width 0.1) (tstamp ff80d745-ccf4-4f3c-b4a7-753135e141d8))
   (gr_rect (start 185.42 81.534) (end 119.38 68.58) (layer "User.1") (width 0.2) (fill none) (tstamp 86dc7a78-7d51-4111-9eea-8a8f7977eb16))
-  (gr_circle (center 167.64 76.2) (end 179.324 79.502) (layer "User.2") (width 0.15) (fill none) (tstamp 8e6b63a5-2173-4c04-978a-130a4cd03c79))
   (gr_text "github.com/gleich/pcbs" (at 134.239 71.628) (layer "B.SilkS") (tstamp cc8c2453-873e-4b3c-8d7f-86cc071821fa)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
