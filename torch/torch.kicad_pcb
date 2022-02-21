@@ -300,7 +300,7 @@
     (tedit 0) (tstamp 10f9d551-8993-4b36-bbf2-340e6650ab5a)
     (at 167.64 76.073 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "logo" (at 0 0) (layer "F.Fab")
+    (fp_text reference "logo" (at 0 0) (layer "User.1")
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp 6fe7eba8-9810-4157-9e4e-7048117e79e4)
     )
