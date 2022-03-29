@@ -1,5 +1,23 @@
 (kicad_sch (version 20211123) (generator eeschema)
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A3" portrait)
+
+  (title_block
+    (title "VIPER")
+    (date "2022-03-28")
+    (rev "v0.0.1")
+    (company "Visual Information Powered Exchange Router")
+    (comment 1 "Matt Gleich")
+    (comment 2 "mattglei.ch")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
