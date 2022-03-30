@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "M2012SA1W03")(type "KiCad")(uri "${KIPRJMOD}/../libs/M2012SA1W03/M2012SA1W03.kicad_sym")(options "")(descr ""))
+  (lib (name "M2012SA1W03")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/M2012SA1W03/M2012SA1W03.kicad_sym")(options "")(descr ""))
   (lib (name "SSD1306")(type "Legacy")(uri "${KIPRJMOD}/../libs/SSD1306-128x64_OLED.lib")(options "")(descr ""))
 )
