@@ -220,7 +220,7 @@
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
+      "net_not_bus_member": "ignore",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
