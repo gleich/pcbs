@@ -2,4 +2,5 @@
   (lib (name "M2012SA1W03")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/M2012SA1W03")(options "")(descr ""))
   (lib (name "SSD1306")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/SSD1306.pretty")(options "")(descr ""))
   (lib (name "BarrelJacks")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/Connector_BarrelJack.pretty")(options "")(descr ""))
+  (lib (name "Pico")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
 )
