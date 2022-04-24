@@ -697,9 +697,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 0782518e-59ad-46fc-ac8a-d0a5d6f69328)
-    (at 182.626 46.160333 180)
+    (at 178.767335 46.732833 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -729,9 +729,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp eba685eb-9fcd-4fef-a35b-0574a7b647e4))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp 932ccbd7-ebeb-494e-b321-5a152a738c35))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 520c93d4-3352-44e6-8fe2-b16fea51fc66))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "K") (pintype "passive") (tstamp 2cf85ca9-250f-4d7a-b13f-249f0d1f7846))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 17 "Net-(D10-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 619df7b3-360d-4fc7-ab2a-c036de3b0705))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -865,9 +865,9 @@
     )
   )
 
-  (footprint "M2012SA1W03:M2012SA1W03" locked (layer "F.Cu")
+  (footprint "M2012SA1W03:M2012SA1W03" (layer "F.Cu")
     (tedit 0) (tstamp 0d1ccf5c-1126-4c6c-9547-d3d1309e3379)
-    (at 147.997 57.9745 180)
+    (at 145.616324 58.547 180)
     (descr "M2012SA1W03-2")
     (tags "Switch")
     (property "Arrow Part Number" "M2012SA1W03")
@@ -921,7 +921,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 12fc28d7-e4e1-4e65-b091-1424917246b9)
-    (at 200.859325 79.061665 180)
+    (at 194.822997 79.634165 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -1418,9 +1418,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 18432cb8-5944-4a5f-92af-9006ac409972)
-    (at 182.626 79.061665 180)
+    (at 178.767335 79.634165 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -1450,9 +1450,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp e0ad095e-d69d-42ce-a88f-945069713885))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp 837cf65f-fb31-426f-a3fd-a8338f32ec22))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp be6eb1c7-4da1-42b8-8bd6-acab3cb13414))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 19 "Net-(D13-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 0b5df9fd-80c7-4607-a501-692697b939ee))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "A") (pintype "passive") (tstamp 2fddd7ed-93c8-4f4c-840b-f6c8e37b720c))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -1540,9 +1540,9 @@
       (net 1 "Net-(Brd1-Pad4)") (pinfunction "SDA") (pintype "input") (tstamp 0fecac64-c8d6-4bbe-89bd-7eec65dd302c))
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 280cda17-c95c-404a-b200-d7545247ba90)
-    (at 125.222 73.1835)
+    (at 122.975349 73.756)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -1577,9 +1577,9 @@
     (fp_line (start 12.7 0) (end 10.85 0) (layer "F.Fab") (width 0.1) (tstamp 8c220b6c-ee0c-419b-a73d-eacfde9c3016))
     (fp_line (start 1.85 1.6) (end 10.85 1.6) (layer "F.Fab") (width 0.1) (tstamp 960ec45b-9355-4bda-8aef-07b0629c6a07))
     (fp_line (start 1.85 -1.6) (end 1.85 1.6) (layer "F.Fab") (width 0.1) (tstamp 9c776daf-2f18-4836-840c-24a12cb6f90f))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 "VBUS") (pintype "passive") (tstamp d627f63d-a854-4ecf-aa76-8a04f1343bb3))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 11 "Net-(D4-Pad1)") (pintype "passive") (tstamp d3173e1d-fa84-40ce-8359-df63830e990e))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -1771,9 +1771,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 314fbeec-fa04-442b-beec-e2c593649162)
-    (at 107.95 73.1835)
+    (at 106.919687 73.756)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -1808,9 +1808,9 @@
     (fp_line (start 10.85 -1.6) (end 1.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp 541c8689-f331-44e1-ae8a-3f4b8435306d))
     (fp_line (start 1.85 -1.6) (end 1.85 1.6) (layer "F.Fab") (width 0.1) (tstamp bea930f2-53a8-4b43-9426-411bcd5e8f80))
     (fp_line (start 0 0) (end 1.85 0) (layer "F.Fab") (width 0.1) (tstamp d0d55c8b-16d6-4c3e-8041-1bc7d7f9e994))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 "VBUS") (pintype "passive") (tstamp 9a19f284-b048-4e01-bd21-ec931f0ffeb4))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 9 "Net-(D2-Pad1)") (pintype "passive") (tstamp 5bb1aa4e-a9f5-45f0-9f9c-691e99ec8875))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -1819,9 +1819,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 3f6b51ba-9856-48ec-a6b1-729b849f5e83)
-    (at 90.864025 52.1655)
+    (at 90.864025 52.738)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -1856,9 +1856,9 @@
     (fp_line (start 12.7 0) (end 10.85 0) (layer "F.Fab") (width 0.1) (tstamp 98a9fd7f-8c81-41c3-bb0e-494a0879e055))
     (fp_line (start 10.85 -1.6) (end 1.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp ad7782ab-f75f-4f41-a5ba-81448edbac45))
     (fp_line (start 10.85 1.6) (end 10.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp be48c4ca-3b76-4222-b496-54fccfc47e92))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 15 "Net-(D8-Pad2)") (pintype "passive") (tstamp 0391256a-4ae6-4968-8327-fd8fc86140d2))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 313 "Net-(R9-Pad2)") (pintype "passive") (tstamp 5528eba5-d5b6-4db8-9a40-85cfadf297a2))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -1992,9 +1992,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 4aa3c6bf-e5e2-4be7-8fd0-457efb174f24)
-    (at 141.411687 52.1655)
+    (at 139.031011 52.738)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -2029,9 +2029,9 @@
     (fp_line (start 1.85 -1.6) (end 1.85 1.6) (layer "F.Fab") (width 0.1) (tstamp 62cbed2e-26bb-4942-b241-846a1a78e187))
     (fp_line (start 12.7 0) (end 10.85 0) (layer "F.Fab") (width 0.1) (tstamp b8f6bf27-e058-4691-ae26-b01676217023))
     (fp_line (start 1.85 1.6) (end 10.85 1.6) (layer "F.Fab") (width 0.1) (tstamp f4e4323f-1922-4a92-9aaf-191bd2db68d0))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 10 "Net-(D3-Pad2)") (pintype "passive") (tstamp 2dd40cb1-e9ea-4d1c-9fcc-e8f6d68c1f9e))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 310 "Net-(R3-Pad2)") (pintype "passive") (tstamp 50f22e60-01ce-476e-88d9-9e1ba01be49e))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -2165,9 +2165,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 586aaea2-6e80-42f8-a924-a10df692ce67)
-    (at 149.036687 79.1675 180)
+    (at 146.656011 79.74 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -2197,9 +2197,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp 1ad7d7a0-1e6a-4eb4-8d1b-a6073d6ca25a))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp 5044a011-129a-4f83-9043-d1e521e3ade4))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 79ff79e1-72f1-4ba4-aeb9-6aebe667fc61))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 13 "Net-(D6-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 7b0b961a-3e6b-4623-bf19-750efd9c2a9c))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "A") (pintype "passive") (tstamp 10fdb490-2337-4e70-81ed-d80b4fb6f839))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -2210,7 +2210,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 5b66381f-7f0f-4014-babc-bd855c97984b)
-    (at 193.234325 52.123166)
+    (at 187.197997 52.695666)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -2221,7 +2221,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fef91575-d480-43d5-9247-b70e69ca9183)
     )
-    (fp_text value "330Ω" (at 10.99125 2.740834) (layer "F.Fab")
+    (fp_text value "330Ω" (at 10.99125 2.740834) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 10986223-b1e9-4304-9464-3acea5fa566a)
     )
@@ -2506,9 +2506,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 6a0f2a5c-5d30-44ac-866c-c7f49e955824)
-    (at 141.411687 73.1835)
+    (at 139.031011 73.756)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -2543,9 +2543,9 @@
     (fp_line (start 12.7 0) (end 10.85 0) (layer "F.Fab") (width 0.1) (tstamp 15cf2775-cba9-4f59-96ea-352d97da57e8))
     (fp_line (start 10.85 1.6) (end 10.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp dbf747b7-ed74-47d7-a612-ad23bc343f73))
     (fp_line (start 1.85 -1.6) (end 1.85 1.6) (layer "F.Fab") (width 0.1) (tstamp e8afad34-992e-400d-bce6-a31d67c51e89))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 "VBUS") (pintype "passive") (tstamp 7fbbbf87-4e3a-48ce-b9e3-cd5e8e67af8d))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 13 "Net-(D6-Pad1)") (pintype "passive") (tstamp 5595eeb4-f057-40f7-9141-b39aabd80bc8))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -2554,9 +2554,9 @@
     )
   )
 
-  (footprint "M2012SA1W03:M2012SA1W03" locked (layer "F.Cu")
+  (footprint "M2012SA1W03:M2012SA1W03" (layer "F.Cu")
     (tedit 0) (tstamp 6c0455f4-7957-41dc-95c6-620e0e64b5f0)
-    (at 164.6174 57.910999 180)
+    (at 161.714236 58.483499 180)
     (descr "M2012SA1W03-2")
     (tags "Switch")
     (property "Arrow Part Number" "M2012SA1W03")
@@ -2608,9 +2608,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 6c7f996a-c7fe-4d70-a58a-8ab594107e8d)
-    (at 90.864025 73.1835)
+    (at 90.864025 73.756)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -2645,9 +2645,9 @@
     (fp_line (start 10.85 -1.6) (end 1.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp a8506b4b-38d5-471b-9bb2-94c66343684b))
     (fp_line (start 10.85 1.6) (end 10.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp d45bc9ee-ceec-4a45-88be-62bea47b559d))
     (fp_line (start 1.85 -1.6) (end 1.85 1.6) (layer "F.Fab") (width 0.1) (tstamp d9cfc753-56fd-4576-a771-2d7f6158a911))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 "VBUS") (pintype "passive") (tstamp 1b8b7e07-dff2-47d1-9405-a42d7252987d))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 18 "Net-(D11-Pad1)") (pintype "passive") (tstamp fba3a7a4-7055-432d-b54b-6823eac0323c))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -2658,18 +2658,18 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 72db9d12-4d12-4a59-90f6-eacf2703cb1a)
-    (at 198.309325 46.160333)
+    (at 194.822997 46.732833 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
     (property "Sheetname" "")
     (path "/4dc686d8-9632-4900-9a7d-248241e8f730")
     (attr through_hole)
-    (fp_text reference "D12" (at 6.04325 0.067667) (layer "F.SilkS")
+    (fp_text reference "D12" (at -3.551 -0.003167) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c6e22d49-9512-4317-864e-38873a8baf1b)
     )
-    (fp_text value "LED" (at -3.48175 -0.059333) (layer "F.Fab")
+    (fp_text value "LED" (at 5.974 -0.059333) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e6b931a7-223e-4b5a-97f6-a9fc9ecb8d83)
     )
@@ -2688,9 +2688,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp 6ed23b9f-f8b6-4c1f-8128-a6e0d1032337))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp 517a0287-b4a6-4c87-9b40-79864635ed1d))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 89380c19-70ca-475e-9e08-e841ca5dfe64))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "K") (pintype "passive") (tstamp 86e84f9f-4ce2-4c21-ade8-87def36b403a))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 32 "Net-(D12-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 20820616-f14f-4c46-8508-5262c365a82f))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3155,9 +3155,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 78486e6b-1e55-4355-86b6-022761a64ac1)
-    (at 132.847 46.1815 180)
+    (at 130.600349 46.754 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3187,9 +3187,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp b6f88960-81f1-4cbd-8692-6b3c4944b90e))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp d260e361-63cf-4dbd-a946-4b97a81f1f9a))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 00c21eb6-ec0c-44be-b509-a6cfb098f921))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "K") (pintype "passive") (tstamp 4cc798cd-24f6-4dfd-bb0b-ba37c1b90253))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 12 "Net-(D5-Pad2)") (pinfunction "A") (pintype "passive") (tstamp b11d267c-a5c5-453c-9856-87f181e943a9))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3198,9 +3198,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 7b919a6c-21dd-4946-a1cc-4ec2acdf3e19)
-    (at 115.575 79.1675 180)
+    (at 114.544687 79.74 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3230,9 +3230,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp 9172e69e-968b-45a9-a6ef-1c40331cbf05))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp fa1c3002-8ac1-427b-aa59-da18564a7c4d))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 1af6ce90-b822-49d2-aed0-809d452ce4f5))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 9 "Net-(D2-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 1ce8fa44-a1a3-4e4b-ad21-fc5a734ab0bd))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "A") (pintype "passive") (tstamp 058acd97-559f-4d9a-ad33-ee79eb1c4a3a))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3294,9 +3294,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 7e2d4020-501d-4e7b-a8d3-10cfb43e2f1f)
-    (at 157.989837 52.123166)
+    (at 155.086673 52.695666)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3331,9 +3331,9 @@
     (fp_line (start 10.85 -1.6) (end 1.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp c6d01aec-4fa4-467f-bcf9-dc9b0e5c549f))
     (fp_line (start 10.85 1.6) (end 10.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp cde8d950-6902-4e69-a171-db4a84fe1f86))
     (fp_line (start 12.7 0) (end 10.85 0) (layer "F.Fab") (width 0.1) (tstamp f8debc34-282a-4175-b4a2-333ee369369e))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 14 "Net-(D7-Pad2)") (pintype "passive") (tstamp ede29981-7c95-43a4-b517-4e7cdbf1313a))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 312 "Net-(R7-Pad2)") (pintype "passive") (tstamp 760b91a8-1136-48db-83c5-c99bbaf320b4))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -3344,7 +3344,7 @@
 
   (footprint "M2012SA1W03:M2012SA1W03" (layer "F.Cu")
     (tedit 0) (tstamp 80466987-7333-454b-ae7c-efdb7a9c0889)
-    (at 199.686 57.910999 180)
+    (at 193.649672 58.483499 180)
     (descr "M2012SA1W03-2")
     (tags "Switch")
     (property "Arrow Part Number" "M2012SA1W03")
@@ -3400,9 +3400,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 81428857-5563-4f54-bb0b-7627a0deeae3)
-    (at 157.989837 73.098832)
+    (at 155.086673 73.671332)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3437,9 +3437,9 @@
     (fp_line (start 10.85 -1.6) (end 1.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp 9b3e0c85-1e43-459d-bbcb-efa07ac99882))
     (fp_line (start 12.7 0) (end 10.85 0) (layer "F.Fab") (width 0.1) (tstamp b1867f6c-5a57-40b4-96e2-6a643fc05563))
     (fp_line (start 0 0) (end 1.85 0) (layer "F.Fab") (width 0.1) (tstamp f4bb0a8c-99e3-4159-b655-d75a8a29d4ea))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 "VBUS") (pintype "passive") (tstamp 4af359b5-c95e-4ff8-a8d4-58cdae08c792))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 16 "Net-(D9-Pad1)") (pintype "passive") (tstamp eb27ff9b-0878-4eea-a78b-abae3123d645))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -3448,9 +3448,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 8328d28b-42d8-43be-82d9-d0ab64735783)
-    (at 132.847 79.1675 180)
+    (at 130.600349 79.74 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3480,9 +3480,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp 66d6fc49-3c18-4864-b757-5af83d4cc429))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp 32e00176-e4bc-4cd1-accd-67913c58c030))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 950554b8-bca8-4ae7-88ea-57cab7da02c2))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 11 "Net-(D4-Pad1)") (pinfunction "K") (pintype "passive") (tstamp f075e3f2-690e-46a9-a985-450e5b3b10af))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "A") (pintype "passive") (tstamp 422e153b-78b6-4d3b-a028-abb1093f4523))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3491,9 +3491,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 8c1c9e9c-560d-421e-be30-da1c3895e15b)
-    (at 149.036687 46.1815 180)
+    (at 146.656011 46.754 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3523,9 +3523,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp 582531d2-d3ef-4b10-9893-d241b7fa98fd))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp 386c8bda-15f1-47b8-b683-9c3819aa8cc1))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 2c4e26b0-69ad-42be-bc76-c4f8ba730ae3))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "K") (pintype "passive") (tstamp 3df52eb8-daf3-4000-97c5-680de9da01e8))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 10 "Net-(D3-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 0f85a8f4-4997-4f53-97f4-793b03b2cc71))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3587,9 +3587,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp a0986669-b062-4a56-9b01-2fd820d38d30)
-    (at 98.489025 79.1675 180)
+    (at 98.489025 79.74 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3619,9 +3619,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp a2f7e3df-0246-4fd8-afcf-a6b48b848044))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp b165bf2e-5d53-4e39-9230-c5dfab53437e))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 96c66038-faea-4102-a582-7a0a00881eb9))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 18 "Net-(D11-Pad1)") (pinfunction "K") (pintype "passive") (tstamp a1f3d69c-f819-4479-9df5-bd1a91dc1daf))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "A") (pintype "passive") (tstamp fd18f25d-89e7-42bd-8303-cb07b16057a7))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3755,9 +3755,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp a40fc574-5183-4d27-8d17-9bd2b2f4bcf6)
-    (at 175.001 73.098832)
+    (at 171.142335 73.671332)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3792,9 +3792,9 @@
     (fp_line (start 0 0) (end 1.85 0) (layer "F.Fab") (width 0.1) (tstamp ca51de3c-c217-4889-be19-d26270d9d90e))
     (fp_line (start 10.85 1.6) (end 10.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp cc150176-005c-4cda-b884-356965129f86))
     (fp_line (start 1.85 -1.6) (end 1.85 1.6) (layer "F.Fab") (width 0.1) (tstamp f2151f95-5542-4651-959d-6fd31f1b4bee))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 "VBUS") (pintype "passive") (tstamp f0dabb5e-b494-4e76-a65f-b2a9ad4de7bb))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 19 "Net-(D13-Pad1)") (pintype "passive") (tstamp 99000d6c-394b-49a3-b8df-fcb1ba01523f))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -3856,9 +3856,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp a59d7799-131b-42eb-b396-4b25bf9b2c4e)
-    (at 175.001 52.123166)
+    (at 171.142335 52.695666)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -3893,9 +3893,9 @@
     (fp_line (start 0 0) (end 1.85 0) (layer "F.Fab") (width 0.1) (tstamp 594ad0d8-13b5-4539-9238-0097cb9ac50d))
     (fp_line (start 10.85 1.6) (end 10.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp b7729fd3-6bd6-4f84-ade3-c196ad62c386))
     (fp_line (start 1.85 1.6) (end 10.85 1.6) (layer "F.Fab") (width 0.1) (tstamp e4834243-b6c5-4ea2-be01-dcfcbec0e71b))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 17 "Net-(D10-Pad2)") (pintype "passive") (tstamp 7082d0db-2aa5-4457-8811-3fec409b8bc5))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 314 "Net-(R10-Pad2)") (pintype "passive") (tstamp be1c48c4-9c18-4f37-a719-0e178b6cd1f3))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -4525,9 +4525,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp b7535f14-53a0-44f4-b325-bdc491825902)
-    (at 115.575 46.1815 180)
+    (at 114.544687 46.754 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -4557,9 +4557,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp 9fa9243a-4e2d-48a4-995a-80834820eb7e))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp d2dc98a4-92ce-408e-aa89-544f0936be59))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 4c479886-16f6-4bfb-973c-923855fba039))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "K") (pintype "passive") (tstamp 33b11332-4496-4903-abd6-6289da338096))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 8 "Net-(D1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp ec97d689-ec93-405c-a5e6-fc755ccccc16))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -4568,9 +4568,9 @@
     )
   )
 
-  (footprint "M2012SA1W03:M2012SA1W03" locked (layer "F.Cu")
+  (footprint "M2012SA1W03:M2012SA1W03" (layer "F.Cu")
     (tedit 0) (tstamp b9fe35a3-0c1d-4bea-a401-b41c84eb7cbf)
-    (at 131.927044 57.9745 180)
+    (at 129.680393 58.547 180)
     (descr "M2012SA1W03-2")
     (tags "Switch")
     (property "Arrow Part Number" "M2012SA1W03")
@@ -4676,9 +4676,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp bc89fc3d-7609-4e5e-81ea-da7603a4a289)
-    (at 107.95 52.1655)
+    (at 106.919687 52.738)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -4713,9 +4713,9 @@
     (fp_line (start 10.85 -1.6) (end 1.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp 42b1c91a-926e-47f0-8fec-be2704b77eaf))
     (fp_line (start 12.7 0) (end 10.85 0) (layer "F.Fab") (width 0.1) (tstamp 452a290c-f1f9-4493-b0a2-b17e2a666796))
     (fp_line (start 1.85 1.6) (end 10.85 1.6) (layer "F.Fab") (width 0.1) (tstamp d150704c-c647-4796-a0b9-e4ae4b6deaaa))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 8 "Net-(D1-Pad2)") (pintype "passive") (tstamp 7e369f48-fbb9-4aa4-918f-de17e37ba6a9))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 309 "Net-(R1-Pad2)") (pintype "passive") (tstamp 933e22a4-99f0-4baf-b0ee-2ebbb71e41e5))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -5180,9 +5180,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp c86e336b-3323-40de-8f98-38c83d10db60)
-    (at 98.489025 46.1815 180)
+    (at 98.489025 46.754 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -5212,9 +5212,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp 45d87678-8adf-4596-87ad-05cdcaa09e02))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp dc3815a5-ab35-41c2-9f00-0b3672fde3c3))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 3bfb83fc-1d90-4cad-81d5-2389f8245552))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "K") (pintype "passive") (tstamp d27136e2-1138-432a-bf62-bfc67acf3412))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 15 "Net-(D8-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 47809371-3673-40c1-be4c-e2d5ac9ddc8f))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -5223,9 +5223,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp c949ee12-0710-42a1-a840-405d1ff20090)
-    (at 165.614837 46.160333 180)
+    (at 162.711673 46.732833 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -5255,9 +5255,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp dea63ad4-aea9-400c-8c5f-53e8fdd1a5be))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp e8e9fe43-d148-4801-8075-c3fe41d7cbc9))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 3740edc0-389a-4ebe-9e1e-5dc939043806))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "K") (pintype "passive") (tstamp 33e6b906-1c1b-46bc-afd9-72144c3d2928))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 14 "Net-(D7-Pad2)") (pinfunction "A") (pintype "passive") (tstamp e9718b5e-7ae4-48e4-95b5-396e1af4bfa9))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -5266,9 +5266,9 @@
     )
   )
 
-  (footprint "M2012SA1W03:M2012SA1W03" locked (layer "F.Cu")
+  (footprint "M2012SA1W03:M2012SA1W03" (layer "F.Cu")
     (tedit 0) (tstamp cc2e44ea-573a-4698-9149-32accef99717)
-    (at 97.451 57.9745 180)
+    (at 97.451 58.547 180)
     (descr "M2012SA1W03-2")
     (tags "Switch")
     (property "Arrow Part Number" "M2012SA1W03")
@@ -5320,9 +5320,9 @@
     )
   )
 
-  (footprint "M2012SA1W03:M2012SA1W03" locked (layer "F.Cu")
+  (footprint "M2012SA1W03:M2012SA1W03" (layer "F.Cu")
     (tedit 0) (tstamp d2815d41-784d-43fc-87cb-d9548f680d4e)
-    (at 114.575075 57.9745 180)
+    (at 113.544762 58.547 180)
     (descr "M2012SA1W03-2")
     (tags "Switch")
     (property "Arrow Part Number" "M2012SA1W03")
@@ -5429,7 +5429,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp e2af9ef4-26e4-474c-9b7f-d86e5b2c8a01)
-    (at 193.234325 73.098832)
+    (at 187.197997 73.671332)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -5440,7 +5440,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6502751b-7251-4ece-81b6-839c7593b9af)
     )
-    (fp_text value "330Ω" (at 10.981675 -2.613832) (layer "F.Fab")
+    (fp_text value "330Ω" (at 10.981675 -2.613832) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 17775d36-b7e6-4286-a57d-f69a9b8bbbd0)
     )
@@ -5475,9 +5475,9 @@
     )
   )
 
-  (footprint "M2012SA1W03:M2012SA1W03" locked (layer "F.Cu")
+  (footprint "M2012SA1W03:M2012SA1W03" (layer "F.Cu")
     (tedit 0) (tstamp ea08bfa5-3db1-4ed3-9ad5-d21fa5a4de15)
-    (at 181.600963 57.910999 180)
+    (at 177.742298 58.483499 180)
     (descr "M2012SA1W03-2")
     (tags "Switch")
     (property "Arrow Part Number" "M2012SA1W03")
@@ -5529,9 +5529,9 @@
     )
   )
 
-  (footprint "LED_THT:LED_D5.0mm" locked (layer "F.Cu")
+  (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp ef02f083-6c9c-4ce3-a309-7b772c0cd185)
-    (at 165.614837 79.061665 180)
+    (at 162.711673 79.634165 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "viper.kicad_sch")
@@ -5561,9 +5561,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp f215572c-2375-4624-83da-7af4306153c5))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp fa9bc376-b48b-462a-917d-5a6a680a999b))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 30049441-b4b0-4c47-8bf9-632c40215c01))
-    (pad "1" thru_hole rect locked (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 16 "Net-(D9-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 428a0152-7118-4dc7-a429-d1474530d981))
-    (pad "2" thru_hole circle locked (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "A") (pintype "passive") (tstamp 33e4e6c6-c04d-41f9-b23b-6f28bd035ad6))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -5625,9 +5625,9 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" locked (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp fe241bd4-d3ed-4360-8f67-e6d08fca370f)
-    (at 125.222 52.1655)
+    (at 122.975349 52.738)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (property "Sheetfile" "viper.kicad_sch")
@@ -5662,9 +5662,9 @@
     (fp_line (start 10.85 1.6) (end 10.85 -1.6) (layer "F.Fab") (width 0.1) (tstamp beb6512d-a98f-4057-89eb-12ab28d504ef))
     (fp_line (start 1.85 -1.6) (end 1.85 1.6) (layer "F.Fab") (width 0.1) (tstamp eaaccf16-6449-4e89-a7f2-d41f42be35d2))
     (fp_line (start 12.7 0) (end 10.85 0) (layer "F.Fab") (width 0.1) (tstamp fbe08c51-3ace-48fe-a3dc-17d8327c51ca))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 12 "Net-(D5-Pad2)") (pintype "passive") (tstamp 167e853b-b779-4704-b1fe-0ec9826d5a55))
-    (pad "2" thru_hole oval locked (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 311 "Net-(R5-Pad2)") (pintype "passive") (tstamp ecfaf0af-1acc-4c93-985a-c37cd0b46977))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -5682,67 +5682,67 @@
   (gr_rect (start 118.167613 93.472) (end 149.155613 157.48) (layer "F.SilkS") (width 0.15) (fill none) (tstamp e865f88a-6573-41e7-b586-12da513b30c1))
   (gr_rect (start 252.505613 93.2867) (end 283.493613 157.2947) (layer "F.SilkS") (width 0.15) (fill none) (tstamp f8cf5e51-1a20-4a08-b82a-66d3efe9d86c))
   (gr_rect (start 65.109 39.1457) (end 334.603 236.1227) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 39a8cd39-294a-4c8a-99d7-71b35feea45f))
-  (gr_text "OFF" (at 199.584325 40.64) (layer "F.SilkS") (tstamp 194c17cf-5fae-4edd-903e-93348cd8a8cd)
+  (gr_text "OFF" (at 193.547997 41.2125) (layer "F.SilkS") (tstamp 194c17cf-5fae-4edd-903e-93348cd8a8cd)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "ON" (at 199.584325 84.582) (layer "F.SilkS") (tstamp 23545af3-080b-465d-bdeb-2b6925971175)
+  (gr_text "ON" (at 193.547997 85.1545) (layer "F.SilkS") (tstamp 23545af3-080b-465d-bdeb-2b6925971175)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "OFF" (at 131.572 40.64) (layer "F.SilkS") (tstamp 387b0828-348b-47d6-bc5c-15b6b594cd94)
+  (gr_text "OFF" (at 129.325349 41.2125) (layer "F.SilkS") (tstamp 387b0828-348b-47d6-bc5c-15b6b594cd94)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MASTER" (at 103.7082 62.674501 90) (layer "F.SilkS") (tstamp 478215b5-c580-4516-99b6-ba6a9606fdb1)
+  (gr_text "MASTER" (at 103.7082 63.247001 90) (layer "F.SilkS") (tstamp 478215b5-c580-4516-99b6-ba6a9606fdb1)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "ON" (at 164.339837 84.582) (layer "F.SilkS") (tstamp 49867d36-2abe-4add-8455-173ff35ae99c)
+  (gr_text "ON" (at 161.436673 85.1545) (layer "F.SilkS") (tstamp 49867d36-2abe-4add-8455-173ff35ae99c)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MARK I" (at 120.806875 62.674501 90) (layer "F.SilkS") (tstamp 4cbd7873-db33-4daf-831f-89f5cb785cd7)
+  (gr_text "MARK I" (at 119.776562 63.247001 90) (layer "F.SilkS") (tstamp 4cbd7873-db33-4daf-831f-89f5cb785cd7)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "ON" (at 131.572 84.709) (layer "F.SilkS") (tstamp 522e7dc7-86a9-4771-af21-66425eb14878)
+  (gr_text "ON" (at 129.325349 85.2815) (layer "F.SilkS") (tstamp 522e7dc7-86a9-4771-af21-66425eb14878)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "ON" (at 114.3 84.709) (layer "F.SilkS") (tstamp 5c1fbda2-1618-4266-9fc4-c651bdae7f6c)
+  (gr_text "ON" (at 113.269687 85.2815) (layer "F.SilkS") (tstamp 5c1fbda2-1618-4266-9fc4-c651bdae7f6c)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MARK III" (at 154.2708 62.674501 90) (layer "F.SilkS") (tstamp 5f8bce98-2c8f-414b-a552-972289835181)
+  (gr_text "MARK III" (at 151.890124 63.247001 90) (layer "F.SilkS") (tstamp 5f8bce98-2c8f-414b-a552-972289835181)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MARK IV" (at 170.815 62.611 90) (layer "F.SilkS") (tstamp 6465b431-c8a7-427c-86e3-afc783720e7a)
+  (gr_text "MARK IV" (at 167.911836 63.1835 90) (layer "F.SilkS") (tstamp 6465b431-c8a7-427c-86e3-afc783720e7a)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MARK V" (at 187.823963 62.609999 90) (layer "F.SilkS") (tstamp 6629efff-4ede-4ac0-af2b-e3ba34385bc9)
+  (gr_text "MARK V" (at 183.965298 63.182499 90) (layer "F.SilkS") (tstamp 6629efff-4ede-4ac0-af2b-e3ba34385bc9)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "ON" (at 181.351 84.582) (layer "F.SilkS") (tstamp 6a69bb01-66f5-402e-8002-5ab19437e386)
+  (gr_text "ON" (at 177.492335 85.1545) (layer "F.SilkS") (tstamp 6a69bb01-66f5-402e-8002-5ab19437e386)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "ON" (at 97.214025 84.709) (layer "F.SilkS") (tstamp 845c1b46-1fe6-4b4a-a3c5-e7fd992bc8a8)
+  (gr_text "ON" (at 97.214025 85.2815) (layer "F.SilkS") (tstamp 845c1b46-1fe6-4b4a-a3c5-e7fd992bc8a8)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "OFF" (at 181.351 40.64) (layer "F.SilkS") (tstamp 96f6dc02-5f5b-4a2a-8d71-703eec81cf0d)
+  (gr_text "OFF" (at 177.492335 41.2125) (layer "F.SilkS") (tstamp 96f6dc02-5f5b-4a2a-8d71-703eec81cf0d)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "OFF" (at 164.339837 40.64) (layer "F.SilkS") (tstamp ac176515-0978-4b57-9f60-0af0b1057e71)
+  (gr_text "OFF" (at 161.436673 41.2125) (layer "F.SilkS") (tstamp ac176515-0978-4b57-9f60-0af0b1057e71)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MARK VI" (at 206.163 62.991999 90) (layer "F.SilkS") (tstamp c0728c40-1050-4a13-837d-e679312150f0)
+  (gr_text "MARK VI" (at 200.126672 63.564499 90) (layer "F.SilkS") (tstamp c0728c40-1050-4a13-837d-e679312150f0)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "ON" (at 147.761687 84.709) (layer "F.SilkS") (tstamp cd0af14f-4aeb-42c3-b681-76ddcd40c25d)
+  (gr_text "ON" (at 145.381011 85.2815) (layer "F.SilkS") (tstamp cd0af14f-4aeb-42c3-b681-76ddcd40c25d)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "OFF" (at 114.3 40.64) (layer "F.SilkS") (tstamp ce6dff29-b590-49d1-95dc-d178d4052b41)
+  (gr_text "OFF" (at 113.269687 41.2125) (layer "F.SilkS") (tstamp ce6dff29-b590-49d1-95dc-d178d4052b41)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "OFF" (at 147.761687 40.64) (layer "F.SilkS") (tstamp dd08d2be-6665-4d5c-941b-26bb7a66b185)
+  (gr_text "OFF" (at 145.381011 41.2125) (layer "F.SilkS") (tstamp dd08d2be-6665-4d5c-941b-26bb7a66b185)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "OFF" (at 97.214025 40.64) (layer "F.SilkS") (tstamp e3b2cac4-899f-4a29-ade5-34c4c33c42e0)
+  (gr_text "OFF" (at 97.214025 41.2125) (layer "F.SilkS") (tstamp e3b2cac4-899f-4a29-ade5-34c4c33c42e0)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MARK II" (at 138.089069 62.6745 90) (layer "F.SilkS") (tstamp f30190c2-7707-48c5-8939-e8907871e293)
+  (gr_text "MARK II" (at 135.842418 63.247 90) (layer "F.SilkS") (tstamp f30190c2-7707-48c5-8939-e8907871e293)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
@@ -5826,6 +5826,7 @@
   (segment (start 107.188 122.682) (end 107.188 100.076) (width 0.25) (layer "F.Cu") (net 63) (tstamp e3b35dc1-f075-4bff-aed9-1a611c43dc38))
   (segment (start 107.188 140.716) (end 107.188 122.682) (width 0.25) (layer "F.Cu") (net 63) (tstamp ed441a5c-7b9a-4b9b-8c3e-64cdcb4e2a9c))
   (segment (start 108.712 98.552) (end 115.951 98.552) (width 0.25) (layer "F.Cu") (net 63) (tstamp f014c6ef-3431-4926-b263-b09379dbd140))
+  (segment (start 103.26 52.738) (end 103.564025 52.738) (width 0.25) (layer "F.Cu") (net 313) (tstamp a942aa3c-d5c3-46ef-bbb4-39778bba3445))
 
   (group "" (id 01243fdf-658c-4f3c-ac25-d68dc80d54e0)
     (members
@@ -5833,7 +5834,7 @@
       60b7eedd-46e3-4c91-b042-e41f18a1b829
     )
   )
-  (group "" locked (id 06fd319d-9ed2-4f14-a1f0-3b7915760e0c)
+  (group "" (id 06fd319d-9ed2-4f14-a1f0-3b7915760e0c)
     (members
       b9fe35a3-0c1d-4bea-a401-b41c84eb7cbf
       f30190c2-7707-48c5-8939-e8907871e293
@@ -5845,7 +5846,7 @@
       29a058b7-613d-457b-a130-58debcf0061a
     )
   )
-  (group "" locked (id 28afb3be-4846-4318-b647-4f927faf4d23)
+  (group "" (id 28afb3be-4846-4318-b647-4f927faf4d23)
     (members
       0782518e-59ad-46fc-ac8a-d0a5d6f69328
       18432cb8-5944-4a5f-92af-9006ac409972
@@ -5868,10 +5869,9 @@
       8c514922-ffe1-4e37-a260-e807409f2e0d
     )
   )
-  (group "" (id 5977c954-91d2-4c91-8894-f0730b09a130)
+  (group "" (id 557d83bf-ac79-484c-842d-1816398c53fa)
     (members
       12fc28d7-e4e1-4e65-b091-1424917246b9
-      194c17cf-5fae-4edd-903e-93348cd8a8cd
       23545af3-080b-465d-bdeb-2b6925971175
       5b66381f-7f0f-4014-babc-bd855c97984b
       72db9d12-4d12-4a59-90f6-eacf2703cb1a
@@ -5879,7 +5879,7 @@
       e2af9ef4-26e4-474c-9b7f-d86e5b2c8a01
     )
   )
-  (group "" locked (id 5cd02b1a-84bb-4d83-8c2c-27498c61e433)
+  (group "" (id 5cd02b1a-84bb-4d83-8c2c-27498c61e433)
     (members
       4aa3c6bf-e5e2-4be7-8fd0-457efb174f24
       586aaea2-6e80-42f8-a924-a10df692ce67
@@ -5896,7 +5896,7 @@
       afda4ea8-ce74-426b-b855-eb927798aa31
     )
   )
-  (group "" locked (id 92930f67-0adf-498e-ace4-acc9fcf8fbe7)
+  (group "" (id 92930f67-0adf-498e-ace4-acc9fcf8fbe7)
     (members
       06fd319d-9ed2-4f14-a1f0-3b7915760e0c
       280cda17-c95c-404a-b200-d7545247ba90
@@ -5907,7 +5907,7 @@
       fe241bd4-d3ed-4360-8f67-e6d08fca370f
     )
   )
-  (group "" locked (id 98ba2cad-e0cd-4d30-b9ca-cef99cc88206)
+  (group "" (id 98ba2cad-e0cd-4d30-b9ca-cef99cc88206)
     (members
       6629efff-4ede-4ac0-af2b-e3ba34385bc9
       ea08bfa5-3db1-4ed3-9ad5-d21fa5a4de15
@@ -5919,7 +5919,7 @@
       c0728c40-1050-4a13-837d-e679312150f0
     )
   )
-  (group "" locked (id ab829077-61d4-4b6f-aa64-d6e67447e25b)
+  (group "" (id ab829077-61d4-4b6f-aa64-d6e67447e25b)
     (members
       6465b431-c8a7-427c-86e3-afc783720e7a
       6c0455f4-7957-41dc-95c6-620e0e64b5f0
@@ -5931,7 +5931,7 @@
       a09885e1-48cb-440e-85d5-684a015c4bfc
     )
   )
-  (group "" locked (id bce2ff6e-73c8-45d1-b255-b7293ae66709)
+  (group "" (id bce2ff6e-73c8-45d1-b255-b7293ae66709)
     (members
       314fbeec-fa04-442b-beec-e2c593649162
       5c1fbda2-1618-4266-9fc4-c651bdae7f6c
@@ -5942,7 +5942,7 @@
       e0346e01-5abb-47eb-a3b5-50bcaf6b7bb7
     )
   )
-  (group "" locked (id c160cf08-4a25-4640-b892-09c253057225)
+  (group "" (id c160cf08-4a25-4640-b892-09c253057225)
     (members
       49867d36-2abe-4add-8455-173ff35ae99c
       7e2d4020-501d-4e7b-a8d3-10cfb43e2f1f
@@ -5953,13 +5953,13 @@
       ef02f083-6c9c-4ce3-a309-7b772c0cd185
     )
   )
-  (group "" locked (id cbca7646-db6f-476d-a9d8-0eb927ac5041)
+  (group "" (id cbca7646-db6f-476d-a9d8-0eb927ac5041)
     (members
       478215b5-c580-4516-99b6-ba6a9606fdb1
       cc2e44ea-573a-4698-9149-32accef99717
     )
   )
-  (group "" locked (id e0346e01-5abb-47eb-a3b5-50bcaf6b7bb7)
+  (group "" (id e0346e01-5abb-47eb-a3b5-50bcaf6b7bb7)
     (members
       4cbd7873-db33-4daf-831f-89f5cb785cd7
       d2815d41-784d-43fc-87cb-d9548f680d4e
@@ -5971,13 +5971,13 @@
       e3455bfd-5008-429e-9ca6-bf3589e67263
     )
   )
-  (group "" locked (id fcb8d74b-aeba-43a0-8ea5-95879296e084)
+  (group "" (id fcb8d74b-aeba-43a0-8ea5-95879296e084)
     (members
       0d1ccf5c-1126-4c6c-9547-d3d1309e3379
       5f8bce98-2c8f-414b-a552-972289835181
     )
   )
-  (group "" locked (id ffe3002c-fcfa-4a78-b589-11d40fedac14)
+  (group "" (id ffe3002c-fcfa-4a78-b589-11d40fedac14)
     (members
       3f6b51ba-9856-48ec-a6b1-729b849f5e83
       6c7f996a-c7fe-4d70-a58a-8ab594107e8d
