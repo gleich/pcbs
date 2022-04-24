@@ -4430,7 +4430,7 @@
   (symbol (lib_id "M2012SA1W03:M2012SA1W03") (at 252.73 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 00b5734d-53d7-4403-9e75-2166b5bb406e)
-    (property "Reference" "S?" (id 0) (at 256.54 96.5199 90)
+    (property "Reference" "S8" (id 0) (at 256.54 96.5199 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 256.54 99.0599 90)
@@ -4682,7 +4682,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x20_Odd_Even") (at 384.81 67.31 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 18addf41-e952-4109-b650-91a31ff2bfc7)
-    (property "Reference" "J?" (id 0) (at 386.08 96.52 0))
+    (property "Reference" "J15" (id 0) (at 386.08 96.52 0))
     (property "Value" "Adafruit Charlieplex Bonnet" (id 1) (at 386.08 99.06 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" (id 2) (at 384.81 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4735,7 +4735,7 @@
   (symbol (lib_id "Device:LED") (at 278.13 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 19c8f73c-c52a-4765-9516-9defc03adb31)
-    (property "Reference" "D?" (id 0) (at 276.5425 80.01 0))
+    (property "Reference" "D14" (id 0) (at 276.5425 80.01 0))
     (property "Value" "LED" (id 1) (at 276.5425 82.55 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 278.13 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4800,7 +4800,7 @@
   (symbol (lib_id "power:GND") (at 232.41 201.93 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 251a0bc0-c76f-4f21-8c81-d65049704cc2)
-    (property "Reference" "#PWR?" (id 0) (at 226.06 201.93 0)
+    (property "Reference" "#PWR0107" (id 0) (at 226.06 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 228.6 201.9299 90)
@@ -4989,7 +4989,7 @@
   (symbol (lib_id "power:GND") (at 283.21 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 38967bce-a47b-424f-9945-f8d1c2bf0c6f)
-    (property "Reference" "#PWR?" (id 0) (at 283.21 106.68 0)
+    (property "Reference" "#PWR0120" (id 0) (at 283.21 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 283.21 105.41 0))
@@ -5035,7 +5035,7 @@
   (symbol (lib_id "power:GND") (at 218.44 167.64 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3e60494b-aa6e-45bf-8f72-ae3dce78ba8e)
-    (property "Reference" "#PWR?" (id 0) (at 224.79 167.64 0)
+    (property "Reference" "#PWR0113" (id 0) (at 224.79 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 222.25 167.6399 90)
@@ -5053,7 +5053,7 @@
   (symbol (lib_id "MCU_RaspberryPi_and_Boards:Pico") (at 250.19 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3f36e159-006e-4cc1-8311-b3ee5d0d79f7)
-    (property "Reference" "U?" (id 0) (at 250.19 189.23 0))
+    (property "Reference" "U3" (id 0) (at 250.19 189.23 0))
     (property "Value" "Pico" (id 1) (at 250.19 191.77 0))
     (property "Footprint" "Pico:RPi_Pico_SMD_TH" (id 2) (at 250.19 220.98 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5157,7 +5157,7 @@
   (symbol (lib_id "Device:R_US") (at 236.22 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 49f90fdd-8c93-4a76-99e5-f394e7164300)
-    (property "Reference" "R?" (id 0) (at 236.22 80.01 90))
+    (property "Reference" "R13" (id 0) (at 236.22 80.01 90))
     (property "Value" "330Ω" (id 1) (at 236.22 82.55 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (id 2) (at 236.474 85.344 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5187,7 +5187,7 @@
   (symbol (lib_id "Device:LED") (at 228.6 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4dc686d8-9632-4900-9a7d-248241e8f730)
-    (property "Reference" "D?" (id 0) (at 227.0125 80.01 0))
+    (property "Reference" "D12" (id 0) (at 227.0125 80.01 0))
     (property "Value" "LED" (id 1) (at 227.0125 82.55 0))
     (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 228.6 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5202,7 +5202,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise") (at 210.82 208.28 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4e7d8e8a-9159-42e6-88f2-c3c1ce2766fd)
-    (property "Reference" "J?" (id 0) (at 204.47 207.01 0)
+    (property "Reference" "J8" (id 0) (at 204.47 207.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DEBUG PINS" (id 1) (at 207.01 203.2 0)
@@ -5334,7 +5334,7 @@
   (symbol (lib_id "M2012SA1W03:M2012SA1W03") (at 218.44 170.18 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5a7cb433-3584-4076-baa5-58cfcf57f5ce)
-    (property "Reference" "S?" (id 0) (at 207.01 157.48 0))
+    (property "Reference" "S7" (id 0) (at 207.01 157.48 0))
     (property "Value" "M2012SA1W03" (id 1) (at 207.01 160.02 0))
     (property "Footprint" "M2012SA1W03" (id 2) (at 199.39 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -5389,7 +5389,7 @@
   (symbol (lib_id "power:VBUS") (at 280.67 191.77 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5cf12f82-577c-430c-ac8e-a91f0c32bef6)
-    (property "Reference" "#PWR?" (id 0) (at 276.86 191.77 0)
+    (property "Reference" "#PWR0114" (id 0) (at 276.86 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (id 1) (at 284.48 191.7699 90)
@@ -5836,7 +5836,7 @@
   (symbol (lib_id "SSD1306:SSD1306") (at 284.48 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8a231994-d0e8-482e-8ec3-9a984120a3c2)
-    (property "Reference" "Brd?" (id 0) (at 292.1 215.8999 90)
+    (property "Reference" "Brd2" (id 0) (at 292.1 215.8999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SSD1306" (id 1) (at 292.1 218.4399 90)
@@ -5857,7 +5857,7 @@
   (symbol (lib_id "power:VBUS") (at 250.19 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8a31e60b-6ef8-4d02-bcbe-8861ec0c004e)
-    (property "Reference" "#PWR?" (id 0) (at 250.19 77.47 0)
+    (property "Reference" "#PWR0118" (id 0) (at 250.19 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (id 1) (at 250.19 68.58 0))
@@ -5888,7 +5888,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise") (at 309.88 55.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 91daf027-41dc-4cf9-a5f3-babb7b6c61c2)
-    (property "Reference" "J?" (id 0) (at 303.53 53.34 0)
+    (property "Reference" "J14" (id 0) (at 303.53 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DEBUG Pins" (id 1) (at 306.07 49.53 0)
@@ -5994,7 +5994,7 @@
   (symbol (lib_id "power:GND") (at 349.25 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a121e480-318c-44c6-9b4c-07f5e17023ab)
-    (property "Reference" "#PWR?" (id 0) (at 349.25 102.87 0)
+    (property "Reference" "#PWR0115" (id 0) (at 349.25 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 349.25 101.6 0))
@@ -6029,7 +6029,7 @@
   (symbol (lib_id "Device:R_US") (at 269.24 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a3af9908-4231-4852-89b3-93eef861309c)
-    (property "Reference" "R?" (id 0) (at 269.24 80.01 90))
+    (property "Reference" "R14" (id 0) (at 269.24 80.01 90))
     (property "Value" "330Ω" (id 1) (at 269.24 82.55 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (id 2) (at 269.494 85.344 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6109,7 +6109,7 @@
   (symbol (lib_id "power:VBUS") (at 270.51 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a5758e59-3232-495c-918a-8e7cdc0af476)
-    (property "Reference" "#PWR?" (id 0) (at 266.7 93.98 0)
+    (property "Reference" "#PWR0119" (id 0) (at 266.7 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (id 1) (at 274.32 93.9799 90)
@@ -6160,7 +6160,7 @@
   (symbol (lib_id "power:VBUS") (at 373.38 38.1 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid aa1269da-5236-4817-8e7c-892a25aa94e5)
-    (property "Reference" "#PWR?" (id 0) (at 369.57 38.1 0)
+    (property "Reference" "#PWR0116" (id 0) (at 369.57 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (id 1) (at 377.19 38.0999 90)
@@ -6178,7 +6178,7 @@
   (symbol (lib_id "MCU_RaspberryPi_and_Boards:Pico") (at 349.25 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b2df12fd-e0cb-4829-95e9-9b9f441bcda7)
-    (property "Reference" "U?" (id 0) (at 349.25 35.56 0))
+    (property "Reference" "U4" (id 0) (at 349.25 35.56 0))
     (property "Value" "Pico" (id 1) (at 349.25 38.1 0))
     (property "Footprint" "Pico:RPi_Pico_SMD_TH" (id 2) (at 349.25 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6578,7 +6578,7 @@
   (symbol (lib_id "power:GND") (at 331.47 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d3594629-d674-4742-af99-c21a97acf6f5)
-    (property "Reference" "#PWR?" (id 0) (at 325.12 48.26 0)
+    (property "Reference" "#PWR0117" (id 0) (at 325.12 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 327.66 48.2599 90)
@@ -6727,7 +6727,7 @@
   (symbol (lib_id "power:GND") (at 250.19 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e48255eb-ad26-441d-91f3-9c2f2dc05e2c)
-    (property "Reference" "#PWR?" (id 0) (at 250.19 256.54 0)
+    (property "Reference" "#PWR0112" (id 0) (at 250.19 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 250.19 255.27 0))
@@ -6743,7 +6743,7 @@
   (symbol (lib_id "power:GND") (at 220.98 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e9e6c355-939f-4e07-9886-4e9b678a3e64)
-    (property "Reference" "#PWR?" (id 0) (at 220.98 106.68 0)
+    (property "Reference" "#PWR0121" (id 0) (at 220.98 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 220.98 105.41 0))
@@ -6915,6 +6915,9 @@
     (path "/1d2a6495-c661-4507-9567-d5556561bc13"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
+    (path "/251a0bc0-c76f-4f21-8c81-d65049704cc2"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
     (path "/08aa315e-6f02-44a8-8152-f1d4497ecc9a"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
@@ -6926,6 +6929,36 @@
     )
     (path "/7e9bb2b4-4718-4b7a-89b2-88a429383acd"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e48255eb-ad26-441d-91f3-9c2f2dc05e2c"
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3e60494b-aa6e-45bf-8f72-ae3dce78ba8e"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5cf12f82-577c-430c-ac8e-a91f0c32bef6"
+      (reference "#PWR0114") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/a121e480-318c-44c6-9b4c-07f5e17023ab"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/aa1269da-5236-4817-8e7c-892a25aa94e5"
+      (reference "#PWR0116") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/d3594629-d674-4742-af99-c21a97acf6f5"
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8a31e60b-6ef8-4d02-bcbe-8861ec0c004e"
+      (reference "#PWR0118") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/a5758e59-3232-495c-918a-8e7cdc0af476"
+      (reference "#PWR0119") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/38967bce-a47b-424f-9945-f8d1c2bf0c6f"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e9e6c355-939f-4e07-9886-4e9b678a3e64"
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
     (path "/86a43539-fdb5-42b1-bdcc-be42c9608e44"
       (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
@@ -6945,44 +6978,11 @@
     (path "/54fbeaae-b2df-4b42-a679-540710e26ba9"
       (reference "#PWR0127") (unit 1) (value "VBUS") (footprint "")
     )
-    (path "/251a0bc0-c76f-4f21-8c81-d65049704cc2"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/38967bce-a47b-424f-9945-f8d1c2bf0c6f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/3e60494b-aa6e-45bf-8f72-ae3dce78ba8e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/5cf12f82-577c-430c-ac8e-a91f0c32bef6"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/8a31e60b-6ef8-4d02-bcbe-8861ec0c004e"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/a121e480-318c-44c6-9b4c-07f5e17023ab"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a5758e59-3232-495c-918a-8e7cdc0af476"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/aa1269da-5236-4817-8e7c-892a25aa94e5"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/d3594629-d674-4742-af99-c21a97acf6f5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e48255eb-ad26-441d-91f3-9c2f2dc05e2c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e9e6c355-939f-4e07-9886-4e9b678a3e64"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b5af0d73-f33e-4c56-9f53-cce7131dbacb"
       (reference "Brd1") (unit 1) (value "SSD1306") (footprint "SSD1306:128x64OLED")
     )
     (path "/8a231994-d0e8-482e-8ec3-9a984120a3c2"
-      (reference "Brd?") (unit 1) (value "SSD1306") (footprint "SSD1306:128x64OLED")
+      (reference "Brd2") (unit 1) (value "SSD1306") (footprint "SSD1306:128x64OLED")
     )
     (path "/610a4609-ffcc-44c2-8205-c25d87490709"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
@@ -7017,14 +7017,14 @@
     (path "/4c4a0793-a824-4a98-8f39-fbd05947a195"
       (reference "D11") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
+    (path "/4dc686d8-9632-4900-9a7d-248241e8f730"
+      (reference "D12") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
+    )
     (path "/47260841-5ea8-4ed7-8112-afd6b4862a4e"
       (reference "D13") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/19c8f73c-c52a-4765-9516-9defc03adb31"
-      (reference "D?") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
-    )
-    (path "/4dc686d8-9632-4900-9a7d-248241e8f730"
-      (reference "D?") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
+      (reference "D14") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/a1e41b01-1785-49f6-a848-50d996e62a0b"
       (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002")
@@ -7047,6 +7047,9 @@
     (path "/2fcc2237-7d8c-48a1-83b2-a144b287e7ac"
       (reference "J7") (unit 1) (value "DEBUG PINS") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
     )
+    (path "/4e7d8e8a-9159-42e6-88f2-c3c1ce2766fd"
+      (reference "J8") (unit 1) (value "DEBUG PINS") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
+    )
     (path "/68b31824-6d1e-4573-b48f-e3a182683316"
       (reference "J9") (unit 1) (value "Pimoroni BLINKT!") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
     )
@@ -7062,14 +7065,11 @@
     (path "/d99557bc-b29b-470b-8248-cc9f084a87b8"
       (reference "J13") (unit 1) (value "Pimoroni BLINKT!") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
     )
-    (path "/18addf41-e952-4109-b650-91a31ff2bfc7"
-      (reference "J?") (unit 1) (value "Adafruit Charlieplex Bonnet") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
-    )
-    (path "/4e7d8e8a-9159-42e6-88f2-c3c1ce2766fd"
-      (reference "J?") (unit 1) (value "DEBUG PINS") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
-    )
     (path "/91daf027-41dc-4cf9-a5f3-babb7b6c61c2"
-      (reference "J?") (unit 1) (value "DEBUG Pins") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
+      (reference "J14") (unit 1) (value "DEBUG Pins") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
+    )
+    (path "/18addf41-e952-4109-b650-91a31ff2bfc7"
+      (reference "J15") (unit 1) (value "Adafruit Charlieplex Bonnet") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
     )
     (path "/1402e7b9-caa9-44d0-9aea-f0d6f263cd10"
       (reference "R1") (unit 1) (value "330Ω") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
@@ -7108,10 +7108,10 @@
       (reference "R12") (unit 1) (value "330Ω") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
     )
     (path "/49f90fdd-8c93-4a76-99e5-f394e7164300"
-      (reference "R?") (unit 1) (value "330Ω") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R13") (unit 1) (value "330Ω") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
     )
     (path "/a3af9908-4231-4852-89b3-93eef861309c"
-      (reference "R?") (unit 1) (value "330Ω") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R14") (unit 1) (value "330Ω") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
     )
     (path "/0a1051dc-5d5d-4c8b-a110-1ac99bc24eb0"
       (reference "S1") (unit 1) (value "MARK I") (footprint "M2012SA1W03:M2012SA1W03")
@@ -7131,11 +7131,11 @@
     (path "/662d4b92-badf-4824-9a15-aa6e6f6de3de"
       (reference "S6") (unit 1) (value "MARK V") (footprint "M2012SA1W03:M2012SA1W03")
     )
-    (path "/00b5734d-53d7-4403-9e75-2166b5bb406e"
-      (reference "S?") (unit 1) (value "MARK VI") (footprint "M2012SA1W03:M2012SA1W03")
-    )
     (path "/5a7cb433-3584-4076-baa5-58cfcf57f5ce"
-      (reference "S?") (unit 1) (value "M2012SA1W03") (footprint "M2012SA1W03")
+      (reference "S7") (unit 1) (value "M2012SA1W03") (footprint "M2012SA1W03")
+    )
+    (path "/00b5734d-53d7-4403-9e75-2166b5bb406e"
+      (reference "S8") (unit 1) (value "MARK VI") (footprint "M2012SA1W03:M2012SA1W03")
     )
     (path "/6eede5f4-0e4c-4861-8899-0bdb0b92f2e9"
       (reference "U1") (unit 1) (value "Pico") (footprint "Pico:RPi_Pico_SMD_TH")
@@ -7144,10 +7144,10 @@
       (reference "U2") (unit 1) (value "Pico") (footprint "Pico:RPi_Pico_SMD_TH")
     )
     (path "/3f36e159-006e-4cc1-8311-b3ee5d0d79f7"
-      (reference "U?") (unit 1) (value "Pico") (footprint "Pico:RPi_Pico_SMD_TH")
+      (reference "U3") (unit 1) (value "Pico") (footprint "Pico:RPi_Pico_SMD_TH")
     )
     (path "/b2df12fd-e0cb-4829-95e9-9b9f441bcda7"
-      (reference "U?") (unit 1) (value "Pico") (footprint "Pico:RPi_Pico_SMD_TH")
+      (reference "U4") (unit 1) (value "Pico") (footprint "Pico:RPi_Pico_SMD_TH")
     )
   )
 )
