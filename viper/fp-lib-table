@@ -3,5 +3,5 @@
   (lib (name "SSD1306")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/SSD1306.pretty")(options "")(descr ""))
   (lib (name "BarrelJacks")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/Connector_BarrelJack.pretty")(options "")(descr ""))
   (lib (name "Pico")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
-  (lib (name "ViperLogo")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/viper_logo.pretty")(options "")(descr ""))
+  (lib (name "Viper")(type "KiCad")(uri "/Users/matt/src/gleich/public/kicad-layout/pcbs/libs/viper.pretty")(options "")(descr ""))
 )
